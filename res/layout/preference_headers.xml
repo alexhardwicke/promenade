@@ -1,0 +1,35 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <header
+        android:fragment="com.digitalpies.promenade.PreferenceFragmentApp"
+        android:icon="@drawable/ic_menu_settings_holo_light"
+        android:title="@string/preferences" >
+
+        <extra
+            android:name="resource"
+            android:value="preferences_app" />
+    </header>
+
+    <header
+        android:fragment="com.digitalpies.promenade.WelcomeFragment"
+        android:icon="@drawable/ic_menu_help_holo_light"
+        android:title="@string/tutorial" >
+    </header>
+
+    <header
+        android:fragment="com.digitalpies.promenade.AboutFragment"
+        android:icon="@drawable/ic_menu_about_holo_light"
+        android:title="@string/title_about" >
+
+        <extra
+            android:name="resource"
+            android:value="preferences_app" />
+    </header>
+    
+    <header
+        android:fragment="com.digitalpies.promenade.AboutDigitalPiesFragment"
+        android:icon="@drawable/ic_menu_about_digitalpies"
+        android:title="@string/title_about_digitalpies" >
+    </header>
+
+</preference-headers>

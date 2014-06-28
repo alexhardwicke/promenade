@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <PreferenceScreen
+            android:key="app_by"
+            android:title="@string/created_by"
+            android:summary="@string/digitalpies" />
+
+        <PreferenceScreen
+            android:key="app_version"
+            android:title="@string/version" />
+
+</PreferenceScreen>

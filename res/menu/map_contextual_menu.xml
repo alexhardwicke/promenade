@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/edit_button"
+        android:icon="@drawable/ic_menu_edit"
+        android:title="@string/edit"/>
+    <item
+        android:id="@+id/share_button"
+        android:icon="@drawable/ic_menu_share"
+        android:title="@string/share"/>
+    <item
+        android:id="@+id/zoom_to_photo_button"
+        android:icon="@drawable/ic_menu_zoom"
+        android:title="@string/find_on_map"/>
+    <item
+        android:id="@+id/delete_button"
+        android:icon="@drawable/ic_menu_discard"
+        android:title="@string/delete" />
+
+</menu>

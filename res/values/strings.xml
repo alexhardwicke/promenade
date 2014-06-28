@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- STRINGS THAT CONTAIN THE APP NAME. KEEP HERE! -->
+    <string name="app_name">Promenade</string>
+    <string name="title_about">About Promenade</string>
+    
+    <!-- STRINGS SORTED ALPHABETICALLY ACCORDING TO CONTENT, NOT NAME -->
+    <string name="title_about_digitalpies">About DigitalPies</string>
+    <string name="add_tag">Add Tag</string>
+    
+    <string name="cancel_walk">Cancel Walk</string>
+    <string name="cancel_walk_title">Cancel Walk?</string>
+    <string name="toast_storage_error">Cannot access device storage.</string>
+    <string name="toast_photo_error">Cannot share photo: Error finding photo file.</string>
+    <string name="connecting_to_gps">Connecting to GPS…</string>
+    <string name="created_by">Created by:</string>
+    
+    <string name="delete">Delete</string>
+    <string name="delete_note">Delete Note?</string>
+    <string name="delete_photos">Delete Photo?</string>
+    <string name="delete_photo_long">Delete photo from your phone?</string>
+    <string name="delete_photos_long">Delete photos from your phone?</string>
+    <string name="delete_tag">Delete Tag?</string>
+    <string name="tags_remove">Delete Tags</string>
+    <string name="delete_tags">Delete Tags?</string>
+    <string name="delete_walk">Delete Walk</string>
+    <string name="delete_walk_question">Delete Walk?</string>
+    <string name="delete_walks">Delete Walks</string>
+    <string name="delete_walks_question">Delete Walks?</string>
+    <string name="deleting_walks">Deleting Walks</string>
+    <string name="deleting_walks_message">Deleting Walks…</string>
+    <string name="description">Description:</string>
+    <string name="digitalpies">DigitalPies</string>
+    <string name="about_1">Please contact us if you have any questions, suggestions, ideas or criticisms.</string>
+    <string name="email">digitalpies@digitalpies.com</string>
+    <string name="disable_camera_tracking">Disable camera tracking</string>
+    <string name="display_all">Display All</string>
+    
+    <string name="edit">Edit</string>
+    <string name="edit_walk">Edit Walk</string>
+    <string name="enable_camera_tracking">Enable camera tracking</string>
+    <string name="toast_divide_tags_with_commas">Enter multiple tags at once by separating them with commas.</string>
+    <string name="note_text_hint">Enter your note here.</string>
+    <string name="error_deleting_photos">Error deleting one or more photos from your phone.</string>
+    <string name="error_deleting_photo">Error deleting photo from your phone.</string>
+
+    <string name="find_on_map">Find on map</string>
+    <string name="save_walk">Finish Walk</string>
+    <string name="walk_finished_button">Finished Walking</string>
+    
+    <string name="notification_gps_disabled">GPS has been disabled. Walk cancelled.</string>
+    <string name="gps_disabled_title">GPS is Disabled</string>
+    <string name="gps_disabled_message">Would you like to enable it?</string>
+    <string name="toast_gps_wasnt_enabled">GPS was not enabled. A walk cannot be started.</string>
+    
+    <string name="hide_notes">Hide Notes</string>
+    <string name="hide_photos">Hide Photos</string>
+    <string name="welcome_final_description">Hold your finger on walks in your walk list to perform extra actions (such as editing or deleting). Customise your experience with preferences found in the Android menu.</string>
+    <string name="website">http://www.digitalpies.com</string>
+    
+    <string name="icon">Icon</string>
+    
+    <string name="logo">Logo</string>
+    
+    <string name="map_accuracy_title">Map Accuracy</string>
+    <string name="miles">miles</string>
+    
+    <string name="no_camera_app_installed">No camera application found.</string>
+    <string name="no_gallery_app_installed">No gallery application found.</string>
+    <string name="toast_no_tagged_items_remaining">No items remaining matching selected tags.</string>
+    <string name="toast_no_tags_entered">No tags found.</string>
+    <string name="toast_no_tags_selected">No tags selected.</string>
+    <string name="note_selected">Note selected</string>
+    
+    <string name="return_to_walk">Open current walk</string>
+    <string name="welcome_sort_tags_description">Organise your walks! Use the top option to filter your walks by the tags you have set, and the bottom to sort the list.</string>
+    
+    <string name="pause">Pause</string>
+    <string name="notification_paused_ticker">Paused tracking of walk.</string>
+    <string name="paused">(Paused)</string>
+    <string name="welcome_photo_note_description">Personalise your walks! Use these to take photos or add notes at your current location. The photos will also be available in your Android gallery.</string>
+    <string name="photo_selected">Photo selected</string>
+    <string name="welcome_start_view_walk_description">Press these to start tracking or re-open an in-progress walk. When starting a walk you must enter a name, and can choose to enter a description and tags, such as \"sunny\" or \"long walk\".</string>
+    <string name="welcome_pause_resume_description">Press these to pause and resume a walk. This will turn disconnect GPS and save battery life. Any photos or notes made while the walk is paused will be placed at the last recorded location.</string>
+    <string name="toast_can_browse_away_from_gps">Press home to continue using your phone. Tracking will begin as soon as possible.</string>
+    
+    <string name="tutorial">Quick Guide</string>
+    
+    <string name="map_accuracy">Record location every</string>
+    <string name="reset_toasts">Reset Help Toasts</string>
+    <string name="reset_toasts_dialogue">Reset Help Toasts?</string>
+    <string name="reset_toasts_description">Reset all help messages so that they will show again.</string>
+    <string name="resume">Resume</string>
+    
+    <string name="search">Search</string>
+    <string name="search_with_colon">Search:</string>
+    <string name="search_walks">Search walks</string>
+    <string name="map_accuracy_summary_suffix">seconds</string>
+    <string name="selected">selected</string>
+    <string name="selected_plural">selected</string>
+    <string name="preferences">Settings</string>
+    <string name="share">Share Photo</string>
+    <string name="sort">Sort List</string>
+    <string name="new_walk">Start a walk</string>
+    <string name="start_walk">Start Walk</string>
+    <string name="notification_walk_ticker">Starting to track walk…</string>
+    <string name="toast_can_swipe_notes">Swipe the note to view other notes for this walk.</string>
+    <string name="toast_can_swipe_photos">Swipe the photo to view other photos for this walk.</string>
+    
+    <string name="tags">Tags</string>
+    <string name="tags_with_colon">Tags:</string>
+    <string name="take_note">Take Note</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="notification_walk">Taking Walk:</string>
+    <string name="toast_tap_shoe_prints">Tap the shoe prints to start a walk.</string>
+    <string name="cannot_be_undone">This cannot be undone!</string>
+    <string name="welcome_1">This quick guide will help you with using the application.\n\nTo find out what any button does, hold your finger on it and a textual description will appear.\n\n"Toggle" buttons (which enable or disable features) are highlighted in blue when the feature is off.\n\nFor information on specific features, swipe your finger left.</string>
+    <string name="confirm_reset_toasts">This will reset all help messages so that they will show again as you use the application.</string>
+    <string name="notification_waiting_for_gps">Trying to connect to GPS.</string>
+    
+    <string name="welcome_finish_cancel_description">Use these when you want to end a walk. If you choose to cancel, all data for that walk will be permanently removed.</string>
+    
+    <string name="version">Version:</string>
+    
+    <string name="waiting_for_gps">Waiting for GPS</string>
+    <string name="walk_description_hint">Walk Description</string>
+    <string name="walk_details">Walk Details</string>
+    <string name="walk_distance">Walk distance:</string>
+    <string name="walk_name_hint">Walk Name</string>
+    <string name="walk_started_at">Walk started at:</string>
+    
+    <string name="confirm_enter_name">You must enter a name for your walk.</string>
+    <string name="confirm_enter_note">You need to enter a note!</string>
+
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+
+    <string name="twitter">\@DigitalPies</string>
+    
+    <!-- STRING ARRAYS -->
+    <string-array name="sort_list">
+        <item>By Date (Ascending)</item>
+        <item>By Date (Descending)</item>
+        <item>By Name (Ascending)</item>
+        <item>By Name (Descending)</item>
+    </string-array>
+    <string-array name="map_accuracy_array_entries">
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>20 seconds</item>
+        <item>30 seconds</item>
+        <item>60 seconds</item>
+    </string-array>
+    <string-array name="map_accuracy_array_values">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+</resources>

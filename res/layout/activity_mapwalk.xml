@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.digitalpies.promenade.maps.CustomMapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0k7joYoiT7M9DkMWwR_zu8Xcd0sxI2_B6UT59cA"
+        android:clickable="true"
+        android:state_enabled="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|right"
+        android:orientation="vertical"
+        android:padding="12dp" >
+
+        <ImageView
+            android:id="@+id/maps_zoom_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_map_zoom_in"
+            android:contentDescription="@string/zoom_in" />
+
+        <ImageView
+            android:id="@+id/maps_zoom_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_map_zoom_out"
+            android:contentDescription="@string/zoom_out" />
+    </LinearLayout>
+    <!-- debug API key: 0k7joYoiT7M9DkMWwR_zu8Xcd0sxI2_B6UT59cA -->
+
+</RelativeLayout>

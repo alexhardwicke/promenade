@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <ListPreference
+            android:defaultValue="20"
+            android:dialogTitle="@string/map_accuracy"
+            android:entries="@array/map_accuracy_array_entries"
+            android:entryValues="@array/map_accuracy_array_values"
+            android:key="map_accuracy"
+            android:summary="@string/map_accuracy"
+            android:title="@string/map_accuracy_title" />
+
+        <PreferenceScreen
+            android:key="reset_help_toasts"
+            android:summary="@string/reset_toasts_description"
+            android:title="@string/reset_toasts" />
+
+
+</PreferenceScreen>

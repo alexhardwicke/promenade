@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.digitalpies.promenade"
+    android:id="@+id/balloon_main_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/balloon_overlay_bg_selector"
+    android:baselineAligned="false"
+    android:minWidth="0dp"
+    android:orientation="horizontal"
+    android:paddingBottom="40dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="9dp" >
+
+    <LinearLayout
+        android:id="@id/balloon_inner_layout"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="9dp"
+            android:paddingTop="2dp"
+            app:fillColor="#FF33B5E5"
+            app:pageColor="#FFFFFFFF"
+            app:strokeColor="#FF000000" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp" />
+    </LinearLayout>
+
+</LinearLayout>

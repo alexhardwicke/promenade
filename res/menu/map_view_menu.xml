@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/edit_walk_button"
+        android:icon="@drawable/ic_menu_edit"
+        android:showAsAction="ifRoom"
+        android:title="@string/edit"/>
+    <item
+        android:id="@+id/view_walk_details_button"
+        android:icon="@drawable/ic_menu_info"
+        android:showAsAction="ifRoom"
+        android:title="@string/walk_details"/>
+    <item
+        android:id="@+id/hide_photos_button"
+        android:icon="@drawable/ic_menu_gallery"
+        android:showAsAction="ifRoom"
+        android:title="@string/hide_photos"/>
+    <item
+        android:id="@+id/hide_notes_button"
+        android:icon="@drawable/ic_menu_pin"
+        android:showAsAction="ifRoom"
+        android:title="@string/hide_notes"/>
+    <item
+        android:id="@+id/preferences_button"
+        android:showAsAction="never"
+        android:title="@string/preferences"/>
+
+</menu>

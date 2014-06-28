@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/start_walk_button"
+        android:icon="@drawable/ic_menu_new_walk"
+        android:showAsAction="ifRoom"
+        android:title="@string/new_walk"/>
+    <item
+        android:id="@+id/resume_walk_button"
+        android:icon="@drawable/ic_menu_mapmode"
+        android:showAsAction="ifRoom"
+        android:title="@string/return_to_walk"/>
+    <item
+        android:id="@+id/search_button"
+        android:title="@string/search"
+        android:icon="@drawable/ic_menu_find"
+        android:showAsAction="collapseActionView|ifRoom"
+        android:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/tags_button"
+        android:icon="@drawable/ic_menu_tags"
+        android:showAsAction="ifRoom"
+        android:title="@string/tags"/>
+    <item
+        android:id="@+id/display_all_button"
+        android:icon="@drawable/ic_menu_close_clear_cancel"
+        android:showAsAction="ifRoom"
+        android:title="@string/display_all"
+        android:visible="false"/>
+    <item
+        android:id="@+id/sort_button"
+        android:icon="@drawable/ic_menu_sort"
+        android:showAsAction="ifRoom"
+        android:title="@string/sort"/>
+    <item
+        android:id="@+id/tags_remove_button"
+        android:showAsAction="never"
+        android:title="@string/tags_remove"/>
+    <item
+        android:id="@+id/preferences_button"
+        android:showAsAction="never"
+        android:title="@string/preferences"/>
+
+</menu>

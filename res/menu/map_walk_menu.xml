@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/take_photo_button"
+        android:icon="@drawable/ic_menu_camera"
+        android:showAsAction="ifRoom"
+        android:title="@string/take_photo"/>
+    <item
+        android:id="@+id/take_note_button"
+        android:icon="@drawable/ic_menu_pin"
+        android:showAsAction="ifRoom"
+        android:title="@string/take_note"/>
+    <item
+        android:id="@+id/pause_button"
+        android:icon="@drawable/ic_menu_pause"
+        android:showAsAction="ifRoom"
+        android:title="@string/pause"/>
+    <item
+        android:id="@+id/resume_button"
+        android:icon="@drawable/ic_menu_play"
+        android:showAsAction="ifRoom"
+        android:title="@string/resume"/>
+    <item
+        android:id="@+id/walk_zoom_enable_camera_button"
+        android:icon="@drawable/ic_menu_focus_toggled"
+        android:showAsAction="ifRoom"
+        android:title="@string/enable_camera_tracking"/>
+    <item
+        android:id="@+id/walk_zoom_disable_camera_button"
+        android:icon="@drawable/ic_menu_focus"
+        android:showAsAction="ifRoom"
+        android:title="@string/disable_camera_tracking"/>
+    <item
+        android:id="@+id/walk_finished_button"
+        android:icon="@drawable/ic_menu_accept"
+        android:showAsAction="ifRoom"
+        android:title="@string/walk_finished_button"/>
+    <item
+        android:id="@+id/walk_cancel_button"
+        android:icon="@drawable/ic_menu_close_clear_cancel"
+        android:showAsAction="ifRoom"
+        android:title="@string/cancel_walk"/>
+    <item
+        android:id="@+id/preferences_button"
+        android:showAsAction="never"
+        android:title="@string/preferences"/>
+
+</menu>

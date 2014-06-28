@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/edit_walk_button"
+        android:icon="@drawable/ic_menu_edit"
+        android:title="@string/edit"/>
+    <item
+        android:id="@+id/view_walk_details_button"
+        android:icon="@drawable/ic_menu_info"
+        android:title="@string/walk_details"/>
+    <item
+        android:id="@+id/delete_walk_button"
+        android:icon="@drawable/ic_menu_discard" />
+
+</menu>
