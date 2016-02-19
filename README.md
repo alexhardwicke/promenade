@@ -1,7 +1,9 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 Promenade
 =============
 
-Alex's Project written for a 120 hour assignment for an Android course at Umeå University.
+Alex's Project written for a 120 hour assignment for an Android course at UmeÃ¥ University.
 
 
 Notes
